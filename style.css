@@ -1,0 +1,359 @@
+body{
+    background-color: white;
+    color: black;
+    margin: none;
+}
+
+ /* switch between individual and business */
+.switch{
+    background: linear-gradient(to left, #ceece5 0%, rgba(217, 232, 233, 0) 92%);
+    width: 100%; 
+    background-size: cover;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    list-style: none; 
+    margin: 20px 315.5px;
+    padding: 0px ;
+    display: flex;
+    justify-content: start;
+}
+
+.nav a{
+    color: rgb(158, 161, 163);
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 13px;
+    text-size-adjust: 13px;
+}
+
+.nav li{
+    display: flex;
+    margin-right: 30px;
+}
+
+/* section 1 including nav bar*/
+.section1{
+    background-image: url(images/hero-bj.webp);
+    min-height: 100vh;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+#navbar{
+    margin: 0px 315.5px;
+    align-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    max-width: 100px;
+    max-height: 29.53px;
+    padding: 0%;
+    margin-top: 10px;
+    align-content: flex-start;
+}
+
+.container-1{
+    margin-right: 500px;
+}
+
+
+.container-1 ul{
+    display: flex;
+    list-style: none; 
+}
+
+.container-1 a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-family: Aeonik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#log-in{
+    margin-right: 15px;
+    align-items: start;
+}
+
+.button-login{
+    background-color: rgb(238, 238, 238);
+    color: #000000;
+    border-radius: 10px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 5px;
+    border-style: none;
+}
+
+.button-get{
+    background-color: rgb(77, 126, 231);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-style: none;
+}
+   
+.intro{
+    margin: 100px 315.5px;
+    padding: 14px 0px 140px 0px;
+    display: flex;
+    align-content: center;
+}
+
+.body{
+    margin-right: 50px;
+}
+
+.body h1{
+    font-family: Aeonik, sans-serif;
+    line-height: 80px;
+    font-size: 60px;
+    font-weight: 1000px;
+}
+
+.body p{
+    font-family: Aeonik, sans-serif;
+    font-size: 20px;
+    font-weight: 3px;
+    color: grey;
+}
+
+#image1{
+    height: 530px;
+    max-width: 100%;
+    min-width: 50%;
+    background-image: url(./images/image1.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    position: relative;
+}
+
+.store{
+    display: flex;
+    max-width: 300px;
+}
+
+.store a{
+    max-width: 100px;
+    max-height: 29.53px;
+    padding-right: 100px;
+    margin: 100px 0px;
+}
+
+/* section 2 */
+.section2{
+    background-color: white;
+    margin: 100px 315.5px;
+}
+
+.section2 h1{
+    color: black;
+    font-family: Aeonik, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 80px;
+}
+
+#sec2body{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+#items{
+    margin-right: 50px;
+}
+
+.item1{
+    margin: 0px 60px 80px 0px;
+    font-family: Aeonik, sans-serif;
+}
+
+.item1 h2{
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+    line-height: 36px;
+}
+
+.item1 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 25px 0px;
+}
+
+.item1 a{
+    text-decoration: none;
+    color: rgb(8, 117, 241);
+    margin: 14px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.item2{
+    margin: 0px 60px 80px 0px;
+    font-family: Aeonik, sans-serif;
+}
+
+.item2 h2{
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+    line-height: 36px;
+}
+
+.item2 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 25px 0px;
+}
+
+.item2 a{
+    text-decoration: none;
+    color: rgb(8, 117, 241);
+    margin: 14px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.item3{
+    margin: 0px 60px 80px 0px;
+    font-family: Aeonik, sans-serif;
+}
+
+.item3 h2{
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+    line-height: 36px;
+}
+
+.item3 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 25px 0px;
+}
+
+.item3 a{
+    text-decoration: none;
+    color: rgb(8, 117, 241);
+    margin: 14px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+#sec2img{
+    max-width: 600px;
+    max-height: 700px;
+    /*background-color: #d9ceec;*/
+}
+
+/* For Section 3 */
+.section3{ 
+    font-family: sans-serif;
+    background-image: linear-gradient(148deg, rgba(49, 139, 229, .32), #fff 36%, #fff 59%, rgba(124, 19, 199, .16));
+}
+
+.sec3body{
+    margin: 0px 315.5px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.section3 h2{
+    color: black;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-right: 30%;
+}
+
+.section3 p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.section3-list ol{
+    display: flex;
+    margin: 80px 0px;
+}
+
+.section3-list ol li{
+    margin-right: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.section3-list ol li h3{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.getstarted{
+    background-color: black;
+    color: #fff;
+    padding: 16px 24px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+/* section 4 */
+.section4{
+    margin: 170px 315.5px;
+}
+
+.sec4body h2{
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-right: 65%;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%
+}
+
+.section4-list ul{
+    display: flex;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 16px;
+    list-style: none;
+    padding: 0%;
+}
+
+.section4-list ul li{
+    margin-right: 80px;
+}
+
+.section4-list ul li a{
+    text-decoration: none;
+    color: blue;
+}
