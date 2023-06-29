@@ -113,6 +113,11 @@ body{
     border-style: none;
 }
 
+.flag{
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
 /* section 1 including nav bar*/
 .section1{
     background-image: url(images/hero-bj.webp);
@@ -126,7 +131,7 @@ body{
 }
 
 .intro{
-    margin: 100px 315.5px;
+    margin: 100px 200px;
     padding: 14px 0px 140px 0px;
     display: flex;
     align-content: center;
@@ -178,7 +183,7 @@ body{
 
 .section2{
     background-color: white;
-    margin: 100px 315.5px;
+    margin: 100px 200px;
 }
 
 .section2 h1{
@@ -296,7 +301,7 @@ body{
 }
 
 .sec3body{
-    margin: 0px 315.5px;
+    margin: 0px 200px;
     padding-top: 80px;
     padding-bottom: 40px;
 }
@@ -315,18 +320,34 @@ body{
     font-size: 20px;
 }
 
-.section3-list ol{
+.section3-list{
     display: flex;
     margin: 80px 0px;
+    justify-content: space-between;
+    box-sizing: content-box;
 }
 
-.section3-list ol li{
-    margin-right: 100px;
+.number p{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #5670e5;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+.list1{
+    padding: 15px;
+    
+}
+.sect3li{
     font-family: sans-serif;
     font-size: 20px;
 }
 
-.section3-list ol li h3{
+.sect3li h3{
     font-family: sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -346,7 +367,7 @@ body{
 /* section 4 */
 
 .section4{
-    margin: 170px 315.5px;
+    margin: 100px 200px;
 }
 
 .sec4body h2{
@@ -367,12 +388,14 @@ body{
     font-size: 16px;
     list-style: none;
     padding: 0%;
-    justify-content:space-between;
+    justify-content:space-around;
+    width: 100%;   
+    align-items: center;
 }
 
 .li{
     padding-right: 15px;
-    max-width: 25%;
+    width: 50%;
     
 }
 
@@ -388,7 +411,7 @@ body{
 /*section 5*/
 
 .section5{
-    margin: 120px 315.5px;
+    margin: 120px 200px;
 }
 .section5 h2{
     color: #000;
@@ -409,9 +432,10 @@ body{
     list-style: none;
     font-family: sans-serif;
     display: flex;
-    align-items: start;
+    align-items: center;
     padding: 0%;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .section5-list ul li{
@@ -420,15 +444,16 @@ body{
     font-size: 18px;
     padding: 30px 30px;
     margin: 20px 20px;
-    max-width: 30%;
-    max-height: 250px;
+    width: 30%;
+    height: 100px;
     border-radius: 20px;
+    align-items: center;
 }
 
 /*section 6*/
 
 .section6{
-    margin: 120px 315.5px;
+    margin: 120px 200px;
 }
 
 .section6 h2{
@@ -486,7 +511,7 @@ body{
 }
 
 .sect7-body{
-    margin: 0px 326.5px;
+    margin: 0px 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -523,7 +548,7 @@ body{
 }
 
 .footer-body{
-    margin: 0px 315.5px;
+    margin: 0px 200px;
 }
 
 .header{
@@ -634,4 +659,3 @@ body{
 .mobile-nav{
     display: none;
 }
-

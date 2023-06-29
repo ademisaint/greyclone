@@ -11,10 +11,29 @@
         background-size: 100%;
     }
 }
-@media only screen and (max-width: 1250px){
+@media only screen and (max-width: 1024px){
+    .fixed-nav{
+        display: none;
+    }
     .mobile-nav{
+        background-image: url(images/hero-bj.webp);
+        padding-top: 5px;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
+        max-width: 100%;
         display: flex;
-        margin: 0%;
+        margin: 0px;
+        padding: 10px ;
+        justify-content: space-between;
+    }
+    .mlogo img{
+        width: 150px;
+        height: 40px;
+        padding: 0%;
+        margin-top: 10px;
+        margin-left: 25px;
+        align-content: flex-start;
     }
     .intro{
         flex-direction: column;
@@ -35,6 +54,9 @@
         margin: 0px;
         padding: 10px 25px;
     }
+    .section3-list{
+        flex-wrap: wrap;
+    }
     .section4{
         margin: 0%;
         padding: 50px 25px;
@@ -43,18 +65,21 @@
         margin-right: 50%;
     }
     .section4-list{
-        flex-wrap: wrap;
-        max-width: 100%;
-        justify-items: flex-start;
+        flex-direction: column;
+        width: 100%;
     }
-    .li{
-        max-width: 40%;
-    }
+    
     .section5{
         margin: 0%;
         padding: 10px 25px;
     }
-
+    .section5-list ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .section5-list ul li{
+        
+    }
     .sect7-body{
         margin: 0%;
         padding: 10px 25px;
@@ -65,33 +90,57 @@
         max-width: 50%;
         align-items: center;
     }
-    .section5-list ul{
-        width: auto;
-        flex-wrap: wrap;
-    }
     .footer-body{
         margin: 0%;
         padding: 10px 25px;
     }
-    
-}
-@media only screen and (max-width: 500px){
+    #footitems{
+        flex-wrap: wrap;
+    }
     #sec2body{
         flex-wrap: wrap;
         flex-direction: column;
+        margin-bottom: 100px;
     }
-    .section4-list{
+}
+@media only screen and (max-width: 500px){
+    .switch{
+        padding: 0px 25px;
+        margin: 0%;
+    }
+    .nav{
+        margin: 0%;
+    }
+    .navbar{
+        padding: 0px 25px;
+        margin: 0%;
+    }
+    .container-1{
+        display: none;
+    }
+    #log-in{
+        display: none;
+    }
+    .flag{
+        margin-top: 10px;
+        margin-right: 70px;
+    }
 
-        flex-direction: column;
-        max-width: 0%;
-    }
+   
     .section5-list ul{
-        width: auto;
-        display: block;
+        margin: 0%;
+        flex-direction: column;
+        
+    }
+    .section5-list ul li{
+        max-width: 100%;
+        margin-left: 150px;
+    }
+    .sect7-img{
+        margin: 20px 20px;
     }
     #footitems{
         flex-wrap: wrap;
-
     }
     
 }
