@@ -65,13 +65,15 @@
         margin: 0px 100px;
     }
     .section1{
-        padding-top: 100px;
+        padding: 100px 25px 0px 25px ;
     }
     .body h1{
         font-family: Aeonik, sans-serif;
     }
     #image1{
-        margin:200px 100px;
+        margin:100px 100px;
+        width: 700px;
+        height: 900px;
     }
     .section2{
         margin: 0%;
