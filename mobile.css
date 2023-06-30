@@ -11,9 +11,13 @@
         background-size: 100%;
     }
 }
-@media only screen and (max-width: 1024px) and (min-width: 600px){
+@media only screen and (max-width: 1024px) {
     .fixed-nav{
         display: none;
+    }
+    .nav li a{
+        font-size: 22px;
+        font-weight: 600;
     }
     .mobile-nav{
         background-image: url(images/hero-bj.webp);
@@ -24,20 +28,27 @@
         max-width: 100%;
         display: flex;
         margin: 0px;
-        padding: 10px 50px ;
+        padding: 30px 50px ;
         justify-content: space-between;
+        align-items: center;
+    }
+    .flag{
+        margin: 0;
+       
+    }
+    .flag img {
+        width: 55px;
     }
     .mlogo img{
-        width: 150px;
-        height: 40px;
+        width: 220px;
+        height: auto;
         padding: 0%;
         margin-top: 10px;
         margin-left: 25px;
         align-content: flex-start;
     }
    .menubutton img{
-        width: 60px;
-        height: 50px;
+        width: 75px;
         margin-top: 20px;
         margin-right: 25px;
         align-content: flex-end;
@@ -58,8 +69,6 @@
     }
     .body h1{
         font-family: Aeonik, sans-serif;
-        line-height: 80px;
-        font-size: 60px;
     }
     #image1{
         margin:200px 100px;
@@ -118,6 +127,38 @@
         flex-wrap: wrap;
         flex-direction: column;
         margin-bottom: 100px;
+    }
+    .body h1{
+        font-size: 7rem !important;
+        line-height: 120px;
+        font-weight: 700;
+        margin-right:0 ;
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+
+    .body p{
+        font-size:42px ;
+        font-weight: 700 !important;
+        line-height: 70px;
+    }
+
+    .body{
+        margin-right: 0;
+    }
+
+    .store{
+        max-width:100%;
+
+    }
+
+    .store div {
+        width: 50%;
+    }
+
+    .store a img {
+        width: 380px;
+        height: auto;
     }
 }
 /*@media only screen and (max-width: 500px){
