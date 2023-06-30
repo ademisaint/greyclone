@@ -11,7 +11,7 @@
         background-size: 100%;
     }
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) and (min-width: 600px){
     .fixed-nav{
         display: none;
     }
@@ -24,7 +24,7 @@
         max-width: 100%;
         display: flex;
         margin: 0px;
-        padding: 10px ;
+        padding: 10px 50px ;
         justify-content: space-between;
     }
     .mlogo img{
@@ -35,9 +35,16 @@
         margin-left: 25px;
         align-content: flex-start;
     }
+   .menubutton img{
+        width: 60px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 25px;
+        align-content: flex-end;
+    }
     .intro{
         flex-direction: column;
-        margin: 0;
+        margin: 10px 0px 0px 0px;
         padding: 10px 25px;
     }
     .nav{
@@ -45,6 +52,17 @@
     }
     .navbar{
         margin: 0px 100px;
+    }
+    .section1{
+        padding-top: 100px;
+    }
+    .body h1{
+        font-family: Aeonik, sans-serif;
+        line-height: 80px;
+        font-size: 60px;
+    }
+    #image1{
+        margin:200px 100px;
     }
     .section2{
         margin: 0%;
@@ -88,7 +106,6 @@
     .sect7-img{
         margin: 10px 200px;
         max-width: 50%;
-        align-items: center;
     }
     .footer-body{
         margin: 0%;
@@ -103,7 +120,15 @@
         margin-bottom: 100px;
     }
 }
-@media only screen and (max-width: 500px){
+/*@media only screen and (max-width: 500px){
+    .body h1{
+        font-size: 7rem !important;
+        line-height: 120px;
+        font-weight: 700;
+    }
+    .body p{
+        font-size: 16px !important;
+    }
     .switch{
         padding: 0px 25px;
         margin: 0%;
@@ -125,12 +150,12 @@
         margin-top: 10px;
         margin-right: 70px;
     }
-
-   
+    .intro{
+        margin: 100px 0px 0px 0px;
+    }
     .section5-list ul{
         margin: 0%;
         flex-direction: column;
-        
     }
     .section5-list ul li{
         max-width: 100%;
@@ -141,6 +166,22 @@
     }
     #footitems{
         flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
     }
-    
+    #footitems h4{
+        font-size: 20px;
+    }
+    #footitems a{
+        font-size: 21px;
+    }
+    #items2 h4{
+        font-size: 20px;
+    }
+    #items2 a{
+        font-size: 21px;
+    }
+    .buttomtext p{
+        font-size: 16px;
+    }
 }
