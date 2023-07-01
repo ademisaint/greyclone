@@ -79,6 +79,31 @@
         margin: 0%;
         padding: 10px 25px;
     }
+
+    .section2 h1, .section3 h2, .sec4body h2, .section6 h2, .section5 h2 {
+        font-size: 80px;
+    }
+
+    .section3 {
+        padding: 25px;
+    }
+    .getstarted{
+        font-size: 30px;
+    }
+    #sec2img {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        max-height: 100%
+    }
+
+    #sec2img img {
+        width: 80%;
+        height:  80%;
+    }
+
     .sec3body{
         margin: 0px;
         padding: 10px 25px;
@@ -91,28 +116,69 @@
         padding: 50px 25px;
     }
     .sec4body h2{
-        margin-right: 50%;
+        margin-right:0;
     }
     .section4-list{
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
         width: 100%;
+    }
+
+    .li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        background-color: white;
+        border-radius: 20px;
+        margin: 20px 0;
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    .li .svg {
+        width: 20%;
+    }
+
+    .sec4body h2{
+        text-align: center;
+    }
+
+    .sec4body{
+        margin: 65px 8px;
     }
     
     .section5{
-        margin: 0%;
+        margin: 55px 10px;
         padding: 10px 25px;
     }
     .section5-list ul{
         flex-wrap: wrap;
         flex-direction: column;
+        align-content: center;
     }
     .section5-list ul li{
-        
+        width: 80%;
+        font-size: 20px;
+        padding: 60px;
+    }
+
+    .section5-list, .section6-list{ 
+        margin: 80px 0;
+    }
+
+    .section6 h2{
+        margin-right: 0;
     }
     .sect7-body{
         margin: 0%;
-        padding: 10px 25px;
+        padding: 80px 25px;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .sect7-img{
         margin: 10px 200px;
